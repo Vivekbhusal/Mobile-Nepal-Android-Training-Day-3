@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/18dpkotext"
+        android:padding="10dp"
+        android:background="#e4e4e4"
+        android:textColor="@color/black"
+        android:textSize="@dimen/topviewTV" />
+    
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Android Training in 27 dp"
+        android:padding="10dp"
+        android:background="#b4b4b4"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+      
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Android Training in 40dp"
+        android:padding="10dp"
+        android:background="#e4e4e4"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+</LinearLayout>
